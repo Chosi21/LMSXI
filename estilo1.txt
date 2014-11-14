@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="color:blue">This is a heading</h1>
+
+<p style="color:green">This is a paragraph.</p>
+
+<p>Change the text colors of this page.</p>
+
+<p>Tip: Change the style attribute.</p>
+
+</body>
+</html>

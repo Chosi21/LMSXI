@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<form method="post">
+			
+			<fieldset>
+				<legend>Datos Personales</legend>
+				<label for="nombre">Nombre</label>
+				<input type="text" name="nombre" id="nombre"><br>
+				<label for="apellidos">Apellidos</label>
+				<input type="text" name="apellidos" id="apellidos"><br>
+				<label for="fecha">Fecha de nacimiento</label>
+				<input type="text" name="fecha"  size="12"	id="fecha"><br>
+				<label for="mail">Correo electrónico</label>
+				<input type="text" name="mail"id="mail"><br>
+				<select>
+					<option value="hombre">Hombre</option>
+					<option value="mujer">Mujer</option>
+				</select>
+			</fieldset>
+				
+			<fieldset>
+				<legend>Datos de login</legend>
+				<label for="usuario">Usuario</label>
+				<input type="text" name="usuario" id="usuario"><br>
+				<label for="contraseña">Contraseña</label>
+				<input type="password" name="contraseña" id="contraseña">
+			</fieldset>
+			
+			<fieldset>	
+				<legend>Marque una lista de interés</legend>
+				<input type="checkbox" name="deportes" id="deportes">
+				<label for="deportes">Deportes</label>
+				<input type="checkbox" name="musica" id="cine">
+				<label for="musica">Música</label>
+				<input type="checkbox" name="cine" id="cine">
+				<label for="cine">Cine</label>
+			</fieldset><br>
+			
+			<label for="feedback">Explique los motivos por los que quire pertenecer a nuestra comunidad</label><br>
+			<textarea cols="60" rows="15" style="resize:none"></textarea><br><br>
+			<input type="radio" name="confirmacion" id="confirmacion">
+			<label for="confirmacion">Confirmo haber leido y estar de acuerdo con los términos de y condiciones</label><br><br>
+			<input type="submit" value="submit">
+		</form>
+	</body>
+</html>
