@@ -66,7 +66,8 @@ div#menu{
     margin-bottom: 0.5em;
     border: 0;
     border-bottom: 1px solid #004C99;
-    background-image: url(fondo_menu.gif);
+    background-image: url("fondo_menu.gif");
+    background-repeat: repeat-x;
 }
 div#noticias, div#publicidad, div#principal{
     padding: 0.5em;
@@ -78,7 +79,6 @@ div#noticias, div#publicidad, div#principal{
 
 #secundario h2{
     background: #DB905C;
-    padding: .2em;
     padding: .2em;
 }
 div#pie{
