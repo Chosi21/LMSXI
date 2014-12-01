@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+    <head>
+        <style>
+            div{
+                width: 500px;
+                height: 200px;
+                position: static;
+            }
+            div#caja1{
+                background: red;
+
+            }
+            div#caja2{
+                background: yellow;
+
+            }
+            div#caja3{
+                background: blue;
+
+            }
+            div#caja4{
+                background: orange;
+
+            }
+            div#caja2 div.interno2{
+                height: 50%;
+                width: 50%;
+                background: black;
+                position: absolute;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="caja1">
+            <div class="interno"></div>
+        </div>
+        <div id="caja2">
+            <div class="interno2"></div>
+        </div>
+        <div id="caja3">
+            <div class="interno"></div>
+        </div>
+        <div id="caja4">
+            <div class="interno"></div>
+        </div>
+    </body>
+</html>
